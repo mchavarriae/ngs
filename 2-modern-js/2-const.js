@@ -8,3 +8,10 @@ const person = {
   firstName: 'John',
   lastName: 'Doe',
 };
+
+console.log(person);
+person.firstName = 'Juan';
+console.log(person);
+
+//descomentamos esta linea, despues de ejecutarlo por primera vez
+// greeting = 'Hola!';

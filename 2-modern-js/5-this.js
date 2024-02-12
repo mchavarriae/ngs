@@ -7,7 +7,7 @@ const testerObj = {
     console.log('func1', this);
   },
 
-  func2: () => {
+  func2: () =>  {
     console.log('func2', this);
   },
 };

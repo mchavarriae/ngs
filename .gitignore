@@ -1,1 +1,7 @@
 node_modules
+.idea/vcs.xml
+.idea/ngs.iml
+.idea/modules.xml
+.idea/misc.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/git_toolbox_prj.xml

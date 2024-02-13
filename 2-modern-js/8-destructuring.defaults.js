@@ -13,11 +13,15 @@ const circle = {
   radius: 2,
 };
 
-const circleArea = ({ radius }) =>
-  (PI * radius * radius).toFixed(2);
+const circleArea = ({ radius }, {precision = 2} = {}) =>
+  (PI * radius * radius).toFixed(precision);
 
 console.log(
   circleArea(circle)
+);
+
+console.log(
+    circleArea(circle,{precision: 5})
 );
 
 
